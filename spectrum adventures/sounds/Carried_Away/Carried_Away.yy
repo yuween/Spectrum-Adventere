@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":115.25224,
   "name":"Carried_Away",
   "parent":{
     "name":"Soundtrack Playlist",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Carried_Away",
+  "soundFile":"Carried_Away.mp3",
   "type":0,
   "volume":1.0,
 }
