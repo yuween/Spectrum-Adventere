@@ -43,8 +43,13 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
+=======
+    {"id":{"name":"obj_tickbox","path":"objects/obj_tickbox/obj_tickbox.yy",},},
+>>>>>>> 3bcf3731cd3814ed658529688d7dbd127c0b3d4f
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"room_robot","path":"rooms/room_robot/room_robot.yy",},},
     {"id":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},},
@@ -60,7 +65,8 @@
     {"id":{"name":"snd_food","path":"sounds/snd_food/snd_food.yy",},},
     {"id":{"name":"snd_land","path":"sounds/snd_land/snd_land.yy",},},
     {"id":{"name":"snd_villager","path":"sounds/snd_villager/snd_villager.yy",},},
-    {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
+    {"id":{"name":"snd_walk_grass","path":"sounds/snd_walk_grass/snd_walk_grass.yy",},},
+    {"id":{"name":"snd_walk_skeld","path":"sounds/snd_walk_skeld/snd_walk_skeld.yy",},},
     {"id":{"name":"Snow_and_Sand","path":"sounds/Snow_and_Sand/Snow_and_Sand.yy",},},
     {"id":{"name":"Snowman","path":"sounds/Snowman/Snowman.yy",},},
     {"id":{"name":"The_Places_We_Used_To_Walk","path":"sounds/The_Places_We_Used_To_Walk/The_Places_We_Used_To_Walk.yy",},},
@@ -75,12 +81,18 @@
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
+    {"id":{"name":"spr_robot","path":"sprites/spr_robot/spr_robot.yy",},},
     {"id":{"name":"spr_settings","path":"sprites/spr_settings/spr_settings.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
+=======
+    {"id":{"name":"spr_tickbox","path":"sprites/spr_tickbox/spr_tickbox.yy",},},
+>>>>>>> 3bcf3731cd3814ed658529688d7dbd127c0b3d4f
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"room_robot","path":"rooms/room_robot/room_robot.yy",},},
     {"roomId":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
