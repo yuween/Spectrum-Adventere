@@ -19,8 +19,26 @@ else
 	image_speed = 0;
 }
 
+// Horizontal Collision Handling
+if (place_meeting(x + hSpeed, y, obj_collision)) {
+    while (!place_meeting(x + sign(hSpeed), y, obj_collision)) {
+        x += sign(hSpeed);
+    }
+    hSpeed = 0;
+}
+
+// Vertical Collision Handling
+if (place_meeting(x, y + vSpeed, obj_collision)) {
+    while (!place_meeting(x, y + sign(vSpeed), obj_collision)) {
+        y += sign(vSpeed);
+    }
+    vSpeed = 0;
+}
+
 x += hSpeed;
 y += vSpeed;
+
+
 
 if keyboard_check(global.right_key){
 	sprite_index = spr_player_right
