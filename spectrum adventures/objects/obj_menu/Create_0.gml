@@ -5,4 +5,4 @@ global.down_key = vk_down
 global.interact_key = vk_space
 
 global.iCamera = instance_create_layer(0,0,layer,obj_camera);
-
+global.textSpeed = 0.75;
