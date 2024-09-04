@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_walk_skeld",
+  "%Name":"snd_walk",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.885208,
-  "name":"snd_walk_skeld",
+  "name":"snd_walk",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sounds/Sound Effects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_walk_skeld.mp3",
+  "soundFile":"snd_walk.mp3",
   "type":0,
   "volume":1.0,
 }
