@@ -75,6 +75,7 @@
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
     {"id":{"name":"spr_settings","path":"sprites/spr_settings/spr_settings.yy",},},
     {"id":{"name":"spr_text","path":"sprites/spr_text/spr_text.yy",},},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
