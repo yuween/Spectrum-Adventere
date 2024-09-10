@@ -67,6 +67,8 @@
     {"id":{"name":"Wool_Gloves","path":"sounds/Wool_Gloves/Wool_Gloves.yy",},},
     {"id":{"name":"spr_ad","path":"sprites/spr_ad/spr_ad.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
+    {"id":{"name":"spr_congratulations","path":"sprites/spr_congratulations/spr_congratulations.yy",},},
+    {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
     {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
