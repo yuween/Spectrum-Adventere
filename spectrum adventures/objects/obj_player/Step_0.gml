@@ -1,3 +1,11 @@
+//if player is not talking to npc, he can move
+if instance_exists(obj_textbox){
+	global.talking = true;
+}
+else if !instance_exists(obj_textbox){
+	global.talking = false;
+}
+
 right_key = keyboard_check(global.right_key);
 left_key = keyboard_check(global.left_key);
 up_key = keyboard_check(global.up_key);
@@ -35,20 +43,23 @@ if (place_meeting(x, y + vSpeed, obj_collision)) {
     vSpeed = 0;
 }
 
-x += hSpeed;
-y += vSpeed;
+if global.talking = false {
+	x += hSpeed;
+	y += vSpeed;
+}
 
 
-
-if keyboard_check(global.right_key){
-	sprite_index = spr_player_right
-}
-else if keyboard_check(global.left_key){
-	sprite_index = spr_player_left
-}
-else if keyboard_check(global.up_key){
-	sprite_index = spr_player_up
-}
-else if keyboard_check(global.down_key){
-	sprite_index = spr_player_down
+if global.talking = false {
+	if keyboard_check(global.right_key){
+		sprite_index = spr_player_right
+	}
+	else if keyboard_check(global.left_key){
+		sprite_index = spr_player_left
+	}
+	else if keyboard_check(global.up_key){
+		sprite_index = spr_player_up
+	}
+	else if keyboard_check(global.down_key){
+		sprite_index = spr_player_down
+	}
 }
