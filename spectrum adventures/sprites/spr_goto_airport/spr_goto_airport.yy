@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_room_building",
+  "%Name":"spr_goto_airport",
   "bboxMode":0,
-  "bbox_bottom":335,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":271,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"86747e6e-5808-4af1-820a-b08ddfc0a299","name":"86747e6e-5808-4af1-820a-b08ddfc0a299","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"58343981-15d1-4895-a455-d2b9fad5938e","name":"58343981-15d1-4895-a455-d2b9fad5938e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":368,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"66bf9e90-7754-47ee-8e22-5b0363240cfb","blendMode":0,"displayName":"default","isLocked":false,"name":"66bf9e90-7754-47ee-8e22-5b0363240cfb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"50fe159c-7e9e-4655-9b15-e0b753f06a1e","blendMode":0,"displayName":"default","isLocked":false,"name":"50fe159c-7e9e-4655-9b15-e0b753f06a1e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_room_building",
+  "name":"spr_goto_airport",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_room_building",
+    "%Name":"spr_goto_airport",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_room_building",
+    "name":"spr_goto_airport",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"86747e6e-5808-4af1-820a-b08ddfc0a299","path":"sprites/spr_room_building/spr_room_building.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"38f78359-6bac-4020-87a5-cb05c52a7992","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58343981-15d1-4895-a455-d2b9fad5938e","path":"sprites/spr_goto_airport/spr_goto_airport.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a3e2e532-e957-4186-9e90-f095f309a77f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":272,
+  "width":16,
 }

@@ -1,0 +1,1 @@
+room_goto(room_plane_map);
