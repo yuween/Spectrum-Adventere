@@ -17,23 +17,30 @@ global.topics[$ "Good Morning"] = [
 	TEXT("The supermarket was out of carrot juice today!")
 ];
 
-global.topics[$ "Breakfast"] = [
+global.topics[$ "Destination"] = [
 	SPEAKER("Sam", spr_portrait_sam, PORTRAIT_SIDE.LEFT),
-	CHOICE("What do you want for breakfast?",
-		OPTION("Eggs", "Chose Eggs"),
-		OPTION("Pancakes", "Chose Pancakes"))
+	CHOICE("Where would you like to fly to?",
+		OPTION("Australia", "Chose Australia"),
+		OPTION("Africa", "Chose Africa"))
 ];
 
-global.topics[$ "Chose Eggs"] = [
-	TEXT("That's a healthy way to start the day!"),
-	GOTO("End of Breakfast")
+global.topics[$ "Chose Australia"] = [
+	CHOICE("Alright, that will be $1000.",
+		OPTION("Give $1000", "Chose Payment"),
+		OPTION("Leave", "End of Destination"))
 ];
 
-global.topics[$ "Chose Pancakes"] = [
-	TEXT("Ooh, yummy!"),
-	GOTO("End of Breakfast")
+global.topics[$ "Chose Africa"] = [
+	CHOICE("Alright, that will be $2000.",
+		OPTION("Give $2000", "Chose Payment"),
+		OPTION("Leave", "End of Destination"))
 ];
 
-global.topics[$ "End of Breakfast"] = [
+global.topics[$ "Chose Payment"] = [
+	TEXT("Thank you sir!"),
+	GOTO("End of Destination")
+];
+
+global.topics[$ "End of Destination"] = [
 	TEXT("Goodbye, now!")
 ];

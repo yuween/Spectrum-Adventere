@@ -12,7 +12,7 @@ if (dragging) {
 }
 
 
-volume_level = (x - min_x) / (max_x - min_x);
+global.volume = (x - min_x) / (max_x - min_x);
 
 
-audio_master_gain(volume_level);
+audio_master_gain(global.volume);
