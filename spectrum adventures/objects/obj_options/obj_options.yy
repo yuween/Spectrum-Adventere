@@ -10,8 +10,8 @@
   "name":"obj_options",
   "overriddenProperties":[],
   "parent":{
-    "name":"Start Screen",
-    "path":"folders/Objects/Start Screen.yy",
+    "name":"Options",
+    "path":"folders/Objects/Start Screen/Options.yy",
   },
   "parentObjectId":null,
   "persistent":false,

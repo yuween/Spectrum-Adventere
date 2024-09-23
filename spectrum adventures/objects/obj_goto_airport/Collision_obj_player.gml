@@ -1,1 +1,1 @@
-room_goto(room_plane_map);
+room_goto(room_world2);

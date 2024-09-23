@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_airport_building",
   "bboxMode":0,
-  "bbox_bottom":79,
+  "bbox_bottom":335,
   "bbox_left":0,
-  "bbox_right":127,
+  "bbox_right":271,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9fd68dbf-4278-48de-a9bb-3ab8ed025908","name":"9fd68dbf-4278-48de-a9bb-3ab8ed025908","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f1aa8dc1-09ca-4231-9a91-920a5f5f5bcc","name":"f1aa8dc1-09ca-4231-9a91-920a5f5f5bcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":80,
+  "height":368,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ce622fb5-026c-4c4b-94a1-f577f7a995ea","blendMode":0,"displayName":"default","isLocked":false,"name":"ce622fb5-026c-4c4b-94a1-f577f7a995ea","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c3e3ad81-74cc-4ed1-915f-e00dffa2cb2a","blendMode":0,"displayName":"default","isLocked":false,"name":"c3e3ad81-74cc-4ed1-915f-e00dffa2cb2a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_airport_building",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"TileSets",
+    "path":"folders/Sprites/TileSets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9fd68dbf-4278-48de-a9bb-3ab8ed025908","path":"sprites/spr_airport_building/spr_airport_building.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7099ab91-4273-48a7-a3c3-3566acda6fb4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1aa8dc1-09ca-4231-9a91-920a5f5f5bcc","path":"sprites/spr_airport_building/spr_airport_building.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"05af1fa3-c758-4b16-a4b9-8a2e3f3431b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":272,
 }

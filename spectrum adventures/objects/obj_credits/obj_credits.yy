@@ -10,8 +10,8 @@
   "name":"obj_credits",
   "overriddenProperties":[],
   "parent":{
-    "name":"Start Screen",
-    "path":"folders/Objects/Start Screen.yy",
+    "name":"Credits",
+    "path":"folders/Objects/Start Screen/Credits.yy",
   },
   "parentObjectId":null,
   "persistent":false,
