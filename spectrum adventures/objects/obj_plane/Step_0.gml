@@ -21,3 +21,16 @@ if x=4800
 		room_goto(room_world2)
 	}
 	
+if x < 2400 {
+	_speed += acceleration
+}
+else {
+	_speed -= acceleration
+}
+
+x += _speed
+
+if _speed < 1
+{
+	_speed = 1;
+}

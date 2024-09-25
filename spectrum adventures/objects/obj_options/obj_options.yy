@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Options",
-    "path":"folders/Notes/Objects/Start Screen/Options.yy",
+    "path":"folders/Objects/Start Screen/Options.yy",
   },
   "parentObjectId":null,
   "persistent":false,
