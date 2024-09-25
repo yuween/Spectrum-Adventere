@@ -97,6 +97,8 @@
     {"id":{"name":"obj_gamepad_tester_1","path":"objects/obj_gamepad_tester_1/obj_gamepad_tester_1.yy",},},
     {"id":{"name":"obj_gamepad_tester","path":"objects/obj_gamepad_tester/obj_gamepad_tester.yy",},},
     {"id":{"name":"obj_goto_airport","path":"objects/obj_goto_airport/obj_goto_airport.yy",},},
+    {"id":{"name":"obj_goto_world1","path":"objects/obj_goto_world1/obj_goto_world1.yy",},},
+    {"id":{"name":"obj_goto_world2","path":"objects/obj_goto_world2/obj_goto_world2.yy",},},
     {"id":{"name":"obj_keybinds_gui","path":"objects/obj_keybinds_gui/obj_keybinds_gui.yy",},},
     {"id":{"name":"obj_npc_airport","path":"objects/obj_npc_airport/obj_npc_airport.yy",},},
     {"id":{"name":"obj_npc_minigame","path":"objects/obj_npc_minigame/obj_npc_minigame.yy",},},
