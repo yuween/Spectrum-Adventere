@@ -34,5 +34,5 @@
     "path":"sprites/spr_goto_airport/spr_goto_airport.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
