@@ -1,6 +1,6 @@
 // Step Event of obj_box
 // Apply gravity to the box's vertical speed
-y_speed += y_gravity;
+y_speed += y_gravity * fall_multiplier;
 
 // Damping
 x_speed *= x_damping;
