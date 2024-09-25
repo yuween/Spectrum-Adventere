@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Credits",
-    "path":"folders/Objects/Start Screen/Credits.yy",
+    "path":"folders/Notes/Objects/Start Screen/Credits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

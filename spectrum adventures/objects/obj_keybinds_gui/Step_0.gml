@@ -32,6 +32,7 @@ if (keyboard_check_pressed(vk_enter)) {
         case 2: key_to_change = "left"; break;
         case 3: key_to_change = "right"; break;
         case 4: key_to_change = "interact"; break;
+		case 5: key_to_change = "action"; break;
     }
     changing_key = true;  // Set state to change the key
 }
@@ -45,6 +46,7 @@ if (changing_key) {
             case "left": global.left_key = keyboard_lastkey; break;			
             case "right": global.right_key = keyboard_lastkey; break;
             case "interact": global.interact_key = keyboard_lastkey; break;
+			case "action": global.action_key = keyboard_lastkey; break;
         }
         changing_key = false;  // Stop key changing mode
     }

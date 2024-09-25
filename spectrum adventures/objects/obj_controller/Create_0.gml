@@ -11,6 +11,7 @@ global.left_key = vk_left
 global.up_key = vk_up
 global.down_key = vk_down
 global.interact_key = vk_space
+global.action_key = ord("E")
 
 global.fullscreen = false;
 global.volume = 0.5
