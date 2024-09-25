@@ -15,9 +15,5 @@ if x>520 and x<4250
 		room_goto(room_lose);
 	}
 	
-if x=4800
-	if y > 420
-	{
-		room_goto(room_world2)
-	}
+
 	
