@@ -3,13 +3,14 @@
   "%Name":"obj_platformer_portal",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_platformer","path":"objects/obj_player_platformer/obj_player_platformer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_platformer_portal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Platformer",
+    "path":"folders/Objects/Platformer.yy",
   },
   "parentObjectId":null,
   "persistent":false,

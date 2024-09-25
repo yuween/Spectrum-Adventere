@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid_platformer",
+  "%Name":"obj_solid_platformer_appear",
   "eventList":[],
   "managed":true,
-  "name":"obj_solid_platformer",
+  "name":"obj_solid_platformer_appear",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Objects/Platformer.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_solid_parent",

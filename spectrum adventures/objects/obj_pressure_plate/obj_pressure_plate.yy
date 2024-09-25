@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_platformer",
+  "%Name":"obj_pressure_plate",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player_platformer",
+  "name":"obj_pressure_plate",
   "overriddenProperties":[],
   "parent":{
     "name":"Platformer",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_platformer",
-    "path":"sprites/spr_player_platformer/spr_player_platformer.yy",
+    "name":"spr_pressure_plate",
+    "path":"sprites/spr_pressure_plate/spr_pressure_plate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
