@@ -1,1 +1,1 @@
-room_goto(room_platformer);
+room_goto(room_gd);

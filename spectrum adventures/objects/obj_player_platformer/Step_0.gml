@@ -24,7 +24,7 @@ if (keyboard_check_pressed(global.action_key)) {
 }
 
 // Jump functionality
-if (keyboard_check_pressed(global.up_key) && (place_meeting(x, y + 1, obj_solid_parent) || place_meeting(x, y + 1, obj_box))) {
+if (keyboard_check_pressed(global.up_key) && (place_meeting(x, y + 2, obj_solid_parent) || place_meeting(x, y + 1, obj_box))) {
     y_speed += y_jump_impulse; // Jump if on the ground or on the box
 }
 

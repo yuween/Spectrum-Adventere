@@ -50,7 +50,7 @@ draw_text(_x-displacement, 270, "Interact: " + get_key_name(global.interact_key)
 draw_set_color(c_white);
 
 if (current_selection == 5) draw_set_color(highlight_color);
-draw_text(_x-displacement, 300, "Action " + get_key_name(global.action_key));
+draw_text(_x-displacement, 300, "Action: " + get_key_name(global.action_key));
 draw_set_color(c_white);
 
 draw_set_halign(fa_center);
