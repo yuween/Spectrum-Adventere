@@ -5,7 +5,7 @@ burger =
 	{ 
 		
 	name : "Burger"
-	description : "It's a BURGER! Recovers HP."
-	sprite : spr_burger, 
+	//description : "It's a BURGER! Recovers HP."
+	//sprite : spr_burger, 
 		
 	}
