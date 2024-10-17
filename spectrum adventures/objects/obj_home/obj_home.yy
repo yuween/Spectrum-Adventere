@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_soundtrack_3",
+  "%Name":"obj_home",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_soundtrack_3",
+  "name":"obj_home",
   "overriddenProperties":[],
   "parent":{
-    "name":"soundtrack",
-    "path":"folders/Objects/soundtrack.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_soundtrack_button",
-    "path":"sprites/spr_soundtrack_button/spr_soundtrack_button.yy",
+    "name":"spr_home",
+    "path":"sprites/spr_home/spr_home.yy",
   },
   "spriteMaskId":null,
   "visible":true,

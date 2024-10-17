@@ -26,4 +26,4 @@ ini_close();
 
 image_alpha = 0;
 
-global.song=1;
+global.song=0;

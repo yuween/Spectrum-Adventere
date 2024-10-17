@@ -30,9 +30,7 @@ if (!option_selected) {
                 instance_deactivate_object(self); // Deactivate main menu while showing options
                 break;
             case 2: // Open Credits
-                instance_create_layer(0, 0, "Instances", obj_credits);
-                instance_deactivate_object(self); // Deactivate main menu while showing credits
-                break;
+                room_goto(room_credits);
         }
     }
 }
