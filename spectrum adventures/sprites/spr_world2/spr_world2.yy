@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"TileSets",
-    "path":"folders/Sprites/TileSets.yy",
+    "name":"world2 and airport",
+    "path":"folders/Sprites/TileSets/world2 and airport.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
