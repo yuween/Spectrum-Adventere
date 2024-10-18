@@ -1,4 +1,4 @@
-video = video_open("credit.mp4");
+video = video_open("credits.mp4");
 
 video_enable_loop(true);
 

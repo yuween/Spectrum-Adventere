@@ -4,5 +4,5 @@ if global.time = 0
 }
 if global.timer = -1
 {
-	room_goto(room_start);
+	TransitionStart(room_start, sqFadeOut, sqFadeIn);
 }

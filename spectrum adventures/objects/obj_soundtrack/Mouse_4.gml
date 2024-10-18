@@ -1,1 +1,1 @@
-room_goto(room_soundtrack);
+TransitionStart(room_soundtrack, sqFadeOut, sqFadeIn);

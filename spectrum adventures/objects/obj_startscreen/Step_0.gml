@@ -19,7 +19,7 @@ if (!option_selected) {
         option_selected = true;
         switch (current_selection) {
             case 0: // Start the game
-                room_goto(room_game); 
+				TransitionStart(room_game, sqFadeOut, sqFadeIn); 
                 break;
             case 1: // Open Options
                 instance_create_layer(0, 0, "Instances", obj_options);

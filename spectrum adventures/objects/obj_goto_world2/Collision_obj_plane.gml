@@ -1,1 +1,1 @@
-room_goto(room_world2);
+TransitionStart(room_world2, sqFadeOut, sqFadeIn);
