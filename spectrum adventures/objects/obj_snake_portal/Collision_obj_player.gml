@@ -1,0 +1,1 @@
+TransitionStart(room_snake_game, sqFadeOut, sqFadeIn);
