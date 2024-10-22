@@ -20,8 +20,10 @@ global.iCamera = instance_create_layer(0,0,layer,obj_camera);
 global.textSpeed = 0.75;
 global.talking = false;
 
-ini_open("highscore.ini");
-global.highscore = ini_read_real("highscore", "best", 0);
+ini_open("phighscore.ini");
+global.best_time = ini_read_real("highscore", "best", 0);
 ini_close();
+
+
 
 image_alpha = 0;
