@@ -23,6 +23,8 @@ if (keyboard_check_pressed(vk_escape)) {
 	instance_create_layer(room_width/2 + 25, 212, "Instances", obj_fullscreen);
 	instance_create_layer(room_width/2, 300, "Instances", obj_controls);
 	// Close the keybind GUI
+	
+
 }
 
 if (keyboard_check_pressed(vk_enter)) {

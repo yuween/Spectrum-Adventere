@@ -1,8 +1,4 @@
 // obj_startscreen - Create Event
-if !audio_is_playing(Carried_Away){
-	audio_play_sound(Carried_Away, 0, true);
-}
-
 menu_options = ["Start", "Options", "Credits"];
 current_selection = 0;
 menu_length = array_length(menu_options);

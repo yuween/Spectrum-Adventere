@@ -1,0 +1,1 @@
+TransitionStart(room_soundtrack, sqFadeOut, sqFadeIn);

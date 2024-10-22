@@ -9,11 +9,6 @@ if !keyboard_check(ord("W")) or !keyboard_check(ord("S"))
 	if y > flying_level y -= 2;
 }
 
-if x>520 and x<4250
-	if y=540 or y=60
-	{
-		room_goto(room_lose);
-	}
 	
 if x=4800
 	if y > 420

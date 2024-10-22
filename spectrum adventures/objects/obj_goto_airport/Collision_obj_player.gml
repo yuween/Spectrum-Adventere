@@ -1,1 +1,1 @@
-room_goto(room_plane_map);
+TransitionStart(room_plane_map, sqFadeOut, sqFadeIn);

@@ -4,7 +4,7 @@ depth = -9999;
 burger = 
 	{ 
 		
-	name : "Burger"
+	//name : "Burger"
 	//description : "It's a BURGER! Recovers HP."
 	//sprite : spr_burger, 
 		
