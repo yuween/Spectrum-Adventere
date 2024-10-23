@@ -1,0 +1,1 @@
+TransitionStart(room_traditionalsnake_lose, sqFadeOut, sqFadeIn);
