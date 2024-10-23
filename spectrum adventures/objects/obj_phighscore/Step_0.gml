@@ -4,20 +4,8 @@ draw_set_halign(fa_center);
 draw_set_color(c_white); // Set text color
 draw_text(_x, _y - 110, "Welcome to Platformer Game!");
 
-// Display Highscore
-if instance_exists(follow)
-{
-	xTo = follow.x;
-	yTo = follow.y;
-}
-
-x += (xTo - x) / 15;
-y += (yTo - y) / 15;
-
-x = clamp(x, _x, room_width - _x);
-y = clamp(y, _y, room_height - _y);
-
-camera_set_view_pos(cam, x - _x, y- _y);
+x = _x
+y = _y
 
 draw_set_halign(fa_left);
 if (global.best_time != -1) {
