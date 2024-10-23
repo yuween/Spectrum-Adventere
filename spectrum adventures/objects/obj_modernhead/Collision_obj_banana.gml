@@ -1,5 +1,5 @@
 
-global.length+=1;
+global.modernlength+=1;
 with (other) instance_destroy();
 score +=250;
 with (obj_moderntrail) alarm [0] +=1;
@@ -10,5 +10,5 @@ do
 }
 until (place_free(xx,yy))
 
-food=instance_create_layer(xx,yy,"game",obj_banana);
+food=instance_create_layer(xx,yy,"Instances",obj_banana);
 with (food) move_snap(16,16);

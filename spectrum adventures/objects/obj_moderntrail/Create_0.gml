@@ -1,1 +1,1 @@
-alarm[0]=global.length;
+alarm[0]=global.modernlength;
