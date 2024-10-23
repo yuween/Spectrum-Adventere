@@ -22,11 +22,8 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Platformer","folderPath":"folders/Objects/Platformer.yy","name":"Platformer","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< Updated upstream
     {"$GMFolder":"","%Name":"Snake","folderPath":"folders/Objects/Snake.yy","name":"Snake","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"soundtrack","folderPath":"folders/Objects/soundtrack.yy","name":"soundtrack","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
->>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Start Screen","folderPath":"folders/Objects/Start Screen.yy","name":"Start Screen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Credits","folderPath":"folders/Objects/Start Screen/Credits.yy","name":"Credits","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Options","folderPath":"folders/Objects/Start Screen/Options.yy","name":"Options","resourceType":"GMFolder","resourceVersion":"2.0",},
