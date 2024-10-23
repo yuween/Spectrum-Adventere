@@ -8,5 +8,5 @@ do
 }
 until (place_free(xx,yy))
 
-food=instance_create_layer(xx,yy,"game",obj_banana);
+food=instance_create_layer(xx,yy,"Instances",obj_banana);
 with (food) move_snap(16,16);
