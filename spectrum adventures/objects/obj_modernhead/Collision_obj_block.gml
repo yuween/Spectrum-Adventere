@@ -1,1 +1,1 @@
-room_goto(room_snake_lose);
+TransitionStart(room_modernsnake_lose, sqFadeOut, sqFadeIn);
