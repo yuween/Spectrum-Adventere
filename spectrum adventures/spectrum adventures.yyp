@@ -393,6 +393,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"room_modern","path":"rooms/room_modern/room_modern.yy",},},
     {"roomId":{"name":"room_robot","path":"rooms/room_robot/room_robot.yy",},},
     {"roomId":{"name":"room_plane_map","path":"rooms/room_plane_map/room_plane_map.yy",},},
     {"roomId":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
@@ -417,7 +418,6 @@
     {"roomId":{"name":"room_plane_crash","path":"rooms/room_plane_crash/room_plane_crash.yy",},},
     {"roomId":{"name":"room_snake_game","path":"rooms/room_snake_game/room_snake_game.yy",},},
     {"roomId":{"name":"room_traditional","path":"rooms/room_traditional/room_traditional.yy",},},
-    {"roomId":{"name":"room_modern","path":"rooms/room_modern/room_modern.yy",},},
     {"roomId":{"name":"room_snake_lose","path":"rooms/room_snake_lose/room_snake_lose.yy",},},
 <<<<<<< Updated upstream
 =======
