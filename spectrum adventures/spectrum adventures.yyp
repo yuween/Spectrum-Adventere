@@ -22,8 +22,11 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Platformer","folderPath":"folders/Objects/Platformer.yy","name":"Platformer","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
     {"$GMFolder":"","%Name":"Snake","folderPath":"folders/Objects/Snake.yy","name":"Snake","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"soundtrack","folderPath":"folders/Objects/soundtrack.yy","name":"soundtrack","resourceType":"GMFolder","resourceVersion":"2.0",},
+=======
+>>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Start Screen","folderPath":"folders/Objects/Start Screen.yy","name":"Start Screen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Credits","folderPath":"folders/Objects/Start Screen/Credits.yy","name":"Credits","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Options","folderPath":"folders/Objects/Start Screen/Options.yy","name":"Options","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -75,6 +78,7 @@
     {"id":{"name":"fnt_debug","path":"fonts/fnt_debug/fnt_debug.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_name","path":"fonts/fnt_name/fnt_name.yy",},},
+    {"id":{"name":"fnt_platformer","path":"fonts/fnt_platformer/fnt_platformer.yy",},},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"obj_ad","path":"objects/obj_ad/obj_ad.yy",},},
@@ -82,16 +86,13 @@
     {"id":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
-    {"id":{"name":"obj_button_airport","path":"objects/obj_button_airport/obj_button_airport.yy",},},
     {"id":{"name":"obj_button_NO","path":"objects/obj_button_NO/obj_button_NO.yy",},},
-    {"id":{"name":"obj_button_startfromplane","path":"objects/obj_button_startfromplane/obj_button_startfromplane.yy",},},
     {"id":{"name":"obj_button_yess","path":"objects/obj_button_yess/obj_button_yess.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
-    {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"obj_example_bullet","path":"objects/obj_example_bullet/obj_example_bullet.yy",},},
     {"id":{"name":"obj_example_drop_in_gameplay_1","path":"objects/obj_example_drop_in_gameplay_1/obj_example_drop_in_gameplay_1.yy",},},
     {"id":{"name":"obj_example_drop_in_gameplay","path":"objects/obj_example_drop_in_gameplay/obj_example_drop_in_gameplay.yy",},},
@@ -122,6 +123,13 @@
     {"id":{"name":"obj_goto_airport","path":"objects/obj_goto_airport/obj_goto_airport.yy",},},
     {"id":{"name":"obj_goto_world1","path":"objects/obj_goto_world1/obj_goto_world1.yy",},},
     {"id":{"name":"obj_goto_world2","path":"objects/obj_goto_world2/obj_goto_world2.yy",},},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    {"id":{"name":"obj_item_manager","path":"objects/obj_item_manager/obj_item_manager.yy",},},
+    {"id":{"name":"obj_keybinds_gui","path":"objects/obj_keybinds_gui/obj_keybinds_gui.yy",},},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"obj_highscore_snake","path":"objects/obj_highscore_snake/obj_highscore_snake.yy",},},
     {"id":{"name":"obj_home","path":"objects/obj_home/obj_home.yy",},},
     {"id":{"name":"obj_item_manager","path":"objects/obj_item_manager/obj_item_manager.yy",},},
@@ -129,6 +137,10 @@
     {"id":{"name":"obj_modernhead","path":"objects/obj_modernhead/obj_modernhead.yy",},},
     {"id":{"name":"obj_modernsnake","path":"objects/obj_modernsnake/obj_modernsnake.yy",},},
     {"id":{"name":"obj_moderntrail","path":"objects/obj_moderntrail/obj_moderntrail.yy",},},
+<<<<<<< Updated upstream
+=======
+>>>>>>> be467979a975220541c1952239d638393f4a9e5e
+>>>>>>> Stashed changes
     {"id":{"name":"obj_npc_airport","path":"objects/obj_npc_airport/obj_npc_airport.yy",},},
     {"id":{"name":"obj_npc_minigame","path":"objects/obj_npc_minigame/obj_npc_minigame.yy",},},
     {"id":{"name":"obj_options","path":"objects/obj_options/obj_options.yy",},},
@@ -142,24 +154,12 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_pressure_plate","path":"objects/obj_pressure_plate/obj_pressure_plate.yy",},},
     {"id":{"name":"obj_quit","path":"objects/obj_quit/obj_quit.yy",},},
-    {"id":{"name":"obj_scroll","path":"objects/obj_scroll/obj_scroll.yy",},},
     {"id":{"name":"obj_slider_bar","path":"objects/obj_slider_bar/obj_slider_bar.yy",},},
     {"id":{"name":"obj_slider_knob","path":"objects/obj_slider_knob/obj_slider_knob.yy",},},
     {"id":{"name":"obj_snake_portal","path":"objects/obj_snake_portal/obj_snake_portal.yy",},},
     {"id":{"name":"obj_solid_parent","path":"objects/obj_solid_parent/obj_solid_parent.yy",},},
     {"id":{"name":"obj_solid_platformer_appear","path":"objects/obj_solid_platformer_appear/obj_solid_platformer_appear.yy",},},
     {"id":{"name":"obj_solid_platformer","path":"objects/obj_solid_platformer/obj_solid_platformer.yy",},},
-    {"id":{"name":"obj_soundtrack_1","path":"objects/obj_soundtrack_1/obj_soundtrack_1.yy",},},
-    {"id":{"name":"obj_soundtrack_10","path":"objects/obj_soundtrack_10/obj_soundtrack_10.yy",},},
-    {"id":{"name":"obj_soundtrack_2","path":"objects/obj_soundtrack_2/obj_soundtrack_2.yy",},},
-    {"id":{"name":"obj_soundtrack_3","path":"objects/obj_soundtrack_3/obj_soundtrack_3.yy",},},
-    {"id":{"name":"obj_soundtrack_4","path":"objects/obj_soundtrack_4/obj_soundtrack_4.yy",},},
-    {"id":{"name":"obj_soundtrack_5","path":"objects/obj_soundtrack_5/obj_soundtrack_5.yy",},},
-    {"id":{"name":"obj_soundtrack_6","path":"objects/obj_soundtrack_6/obj_soundtrack_6.yy",},},
-    {"id":{"name":"obj_soundtrack_7","path":"objects/obj_soundtrack_7/obj_soundtrack_7.yy",},},
-    {"id":{"name":"obj_soundtrack_8","path":"objects/obj_soundtrack_8/obj_soundtrack_8.yy",},},
-    {"id":{"name":"obj_soundtrack_9","path":"objects/obj_soundtrack_9/obj_soundtrack_9.yy",},},
-    {"id":{"name":"obj_soundtrack","path":"objects/obj_soundtrack/obj_soundtrack.yy",},},
     {"id":{"name":"obj_startscreen","path":"objects/obj_startscreen/obj_startscreen.yy",},},
     {"id":{"name":"obj_test_2d","path":"objects/obj_test_2d/obj_test_2d.yy",},},
     {"id":{"name":"obj_test_binding_get_source_type","path":"objects/obj_test_binding_get_source_type/obj_test_binding_get_source_type.yy",},},
@@ -212,15 +212,24 @@
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"id":{"name":"room_map","path":"rooms/room_map/room_map.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"room_modern","path":"rooms/room_modern/room_modern.yy",},},
     {"id":{"name":"room_plane_crash","path":"rooms/room_plane_crash/room_plane_crash.yy",},},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"room_plane_map","path":"rooms/room_plane_map/room_plane_map.yy",},},
     {"id":{"name":"room_platformer","path":"rooms/room_platformer/room_platformer.yy",},},
     {"id":{"name":"room_quit","path":"rooms/room_quit/room_quit.yy",},},
     {"id":{"name":"room_robot","path":"rooms/room_robot/room_robot.yy",},},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"room_snake_game","path":"rooms/room_snake_game/room_snake_game.yy",},},
     {"id":{"name":"room_snake_lose","path":"rooms/room_snake_lose/room_snake_lose.yy",},},
     {"id":{"name":"room_soundtrack","path":"rooms/room_soundtrack/room_soundtrack.yy",},},
+>>>>>>> be467979a975220541c1952239d638393f4a9e5e
     {"id":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
     {"id":{"name":"room_traditional","path":"rooms/room_traditional/room_traditional.yy",},},
     {"id":{"name":"room_world2","path":"rooms/room_world2/room_world2.yy",},},
@@ -258,16 +267,24 @@
     {"id":{"name":"spr_airport_floor","path":"sprites/spr_airport_floor/spr_airport_floor.yy",},},
     {"id":{"name":"spr_airport_tile","path":"sprites/spr_airport_tile/spr_airport_tile.yy",},},
     {"id":{"name":"spr_airport_wall","path":"sprites/spr_airport_wall/spr_airport_wall.yy",},},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_banana","path":"sprites/spr_banana/spr_banana.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
+<<<<<<< Updated upstream
+=======
+>>>>>>> be467979a975220541c1952239d638393f4a9e5e
+>>>>>>> Stashed changes
     {"id":{"name":"spr_blue_1","path":"sprites/spr_blue_1/spr_blue_1.yy",},},
     {"id":{"name":"spr_blue","path":"sprites/spr_blue/spr_blue.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
     {"id":{"name":"spr_button_no","path":"sprites/spr_button_no/spr_button_no.yy",},},
-    {"id":{"name":"spr_button_planecrash","path":"sprites/spr_button_planecrash/spr_button_planecrash.yy",},},
     {"id":{"name":"spr_button_yes","path":"sprites/spr_button_yes/spr_button_yes.yy",},},
     {"id":{"name":"spr_canyon_b","path":"sprites/spr_canyon_b/spr_canyon_b.yy",},},
     {"id":{"name":"spr_canyon_f","path":"sprites/spr_canyon_f/spr_canyon_f.yy",},},
@@ -282,7 +299,6 @@
     {"id":{"name":"spr_clouds","path":"sprites/spr_clouds/spr_clouds.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"spr_controls","path":"sprites/spr_controls/spr_controls.yy",},},
-    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"spr_fullscreen_circle","path":"sprites/spr_fullscreen_circle/spr_fullscreen_circle.yy",},},
     {"id":{"name":"spr_fullscreen","path":"sprites/spr_fullscreen/spr_fullscreen.yy",},},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
@@ -292,10 +308,17 @@
     {"id":{"name":"spr_ground_transition","path":"sprites/spr_ground_transition/spr_ground_transition.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},},
-    {"id":{"name":"spr_home","path":"sprites/spr_home/spr_home.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_modernhead","path":"sprites/spr_modernhead/spr_modernhead.yy",},},
     {"id":{"name":"spr_modernsnake","path":"sprites/spr_modernsnake/spr_modernsnake.yy",},},
+=======
+<<<<<<< HEAD
+=======
+    {"id":{"name":"spr_modernhead","path":"sprites/spr_modernhead/spr_modernhead.yy",},},
+    {"id":{"name":"spr_modernsnake","path":"sprites/spr_modernsnake/spr_modernsnake.yy",},},
+>>>>>>> be467979a975220541c1952239d638393f4a9e5e
+>>>>>>> Stashed changes
     {"id":{"name":"spr_mountain_b_transitione","path":"sprites/spr_mountain_b_transitione/spr_mountain_b_transitione.yy",},},
     {"id":{"name":"spr_mountain_b","path":"sprites/spr_mountain_b/spr_mountain_b.yy",},},
     {"id":{"name":"spr_mountain_f_transitio","path":"sprites/spr_mountain_f_transitio/spr_mountain_f_transitio.yy",},},
@@ -330,9 +353,6 @@
     {"id":{"name":"spr_slider_bar","path":"sprites/spr_slider_bar/spr_slider_bar.yy",},},
     {"id":{"name":"spr_slider_knob","path":"sprites/spr_slider_knob/spr_slider_knob.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
-    {"id":{"name":"spr_soundtrack_button","path":"sprites/spr_soundtrack_button/spr_soundtrack_button.yy",},},
-    {"id":{"name":"spr_soundtrack","path":"sprites/spr_soundtrack/spr_soundtrack.yy",},},
-    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_tickbox","path":"sprites/spr_tickbox/spr_tickbox.yy",},},
     {"id":{"name":"spr_traditionalsnake","path":"sprites/spr_traditionalsnake/spr_traditionalsnake.yy",},},
@@ -391,12 +411,18 @@
     {"roomId":{"name":"room_map","path":"rooms/room_map/room_map.yy",},},
     {"roomId":{"name":"room_quit","path":"rooms/room_quit/room_quit.yy",},},
     {"roomId":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
+<<<<<<< HEAD
+=======
     {"roomId":{"name":"room_soundtrack","path":"rooms/room_soundtrack/room_soundtrack.yy",},},
     {"roomId":{"name":"room_plane_crash","path":"rooms/room_plane_crash/room_plane_crash.yy",},},
     {"roomId":{"name":"room_snake_game","path":"rooms/room_snake_game/room_snake_game.yy",},},
     {"roomId":{"name":"room_traditional","path":"rooms/room_traditional/room_traditional.yy",},},
     {"roomId":{"name":"room_modern","path":"rooms/room_modern/room_modern.yy",},},
     {"roomId":{"name":"room_snake_lose","path":"rooms/room_snake_lose/room_snake_lose.yy",},},
+<<<<<<< Updated upstream
+=======
+>>>>>>> be467979a975220541c1952239d638393f4a9e5e
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
