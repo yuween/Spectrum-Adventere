@@ -1,6 +1,8 @@
 x_speed = 0;
 y_speed = 0;
 
+cp = 0
+
 x_acceleration = 1.1;
 
 x_last_direction = 0;

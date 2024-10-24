@@ -5,3 +5,5 @@ _y = camera_get_view_height(cam) * 0.5;
 xTo = xstart;
 yTo = ystart;
 
+_z = 2
+
