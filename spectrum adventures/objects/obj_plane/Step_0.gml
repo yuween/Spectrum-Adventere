@@ -13,7 +13,7 @@ if !keyboard_check(ord("W")) or !keyboard_check(ord("S"))
 if x=4800
 	if y > 420
 	{
-		room_goto(room_platformerworld)
+		room_goto(room_world2)
 	}
 	
 if x < 2400 {
