@@ -149,6 +149,7 @@
     {"id":{"name":"obj_platformer_portal","path":"objects/obj_platformer_portal/obj_platformer_portal.yy",},},
     {"id":{"name":"obj_player_platformer","path":"objects/obj_player_platformer/obj_player_platformer.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_pressure_plate_1","path":"objects/obj_pressure_plate_1/obj_pressure_plate_1.yy",},},
     {"id":{"name":"obj_pressure_plate","path":"objects/obj_pressure_plate/obj_pressure_plate.yy",},},
     {"id":{"name":"obj_quit","path":"objects/obj_quit/obj_quit.yy",},},
     {"id":{"name":"obj_scroll","path":"objects/obj_scroll/obj_scroll.yy",},},
