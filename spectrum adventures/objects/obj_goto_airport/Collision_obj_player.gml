@@ -1,1 +1,0 @@
-TransitionStart(room_plane_map, sqFadeOut, sqFadeIn);
