@@ -1,0 +1,1 @@
+TransitionStart(room_plane_map_snake, sqFadeOut, sqFadeIn);
