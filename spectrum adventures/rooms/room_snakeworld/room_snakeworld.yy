@@ -1,27 +1,23 @@
 {
   "$GMRoom":"v1",
-  "%Name":"room_snake_game",
+  "%Name":"room_snakeworld",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3958E63C","path":"rooms/room_snake_game/room_snake_game.yy",},
-    {"name":"inst_33EC6E0D","path":"rooms/room_snake_game/room_snake_game.yy",},
-    {"name":"inst_54C9DDF0","path":"rooms/room_snake_game/room_snake_game.yy",},
-    {"name":"inst_A957F95","path":"rooms/room_snake_game/room_snake_game.yy",},
+    {"name":"inst_2CA85748","path":"rooms/room_snakeworld/room_snakeworld.yy",},
+    {"name":"inst_D67B932","path":"rooms/room_snakeworld/room_snakeworld.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_3958E63C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3958E63C","objectId":{"name":"obj_traditionalsnake","path":"objects/obj_traditionalsnake/obj_traditionalsnake.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":150.0,"y":20.0,},
-        {"$GMRInstance":"v1","%Name":"inst_33EC6E0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33EC6E0D","objectId":{"name":"obj_modernsnake","path":"objects/obj_modernsnake/obj_modernsnake.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":610.0,"y":20.0,},
-        {"$GMRInstance":"v1","%Name":"inst_54C9DDF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54C9DDF0","objectId":{"name":"obj_modernstartscreen","path":"objects/obj_modernstartscreen/obj_modernstartscreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":224.0,},
-        {"$GMRInstance":"v1","%Name":"inst_A957F95","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A957F95","objectId":{"name":"obj_traditionalstartscreen","path":"objects/obj_traditionalstartscreen/obj_traditionalstartscreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2CA85748","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CA85748","objectId":{"name":"obj_snake_portal","path":"objects/obj_snake_portal/obj_snake_portal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":480.0,},
+        {"$GMRInstance":"v1","%Name":"inst_D67B932","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D67B932","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":480.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"room_snake_game",
+  "name":"room_snakeworld",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
@@ -37,10 +33,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":540,
+    "Height":768,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":960,
+    "Width":1366,
   },
   "sequenceId":null,
   "views":[

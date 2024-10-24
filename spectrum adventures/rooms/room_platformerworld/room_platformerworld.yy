@@ -1,15 +1,15 @@
 {
   "$GMRoom":"v1",
-  "%Name":"room_world2",
+  "%Name":"room_platformerworld",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5DE39E7F","path":"rooms/room_world2/room_world2.yy",},
-    {"name":"inst_459EB7F0","path":"rooms/room_world2/room_world2.yy",},
-    {"name":"inst_27D36A3C","path":"rooms/room_world2/room_world2.yy",},
-    {"name":"inst_28540625","path":"rooms/room_world2/room_world2.yy",},
+    {"name":"inst_5DE39E7F","path":"rooms/room_platformerworld/room_platformerworld.yy",},
+    {"name":"inst_459EB7F0","path":"rooms/room_platformerworld/room_platformerworld.yy",},
+    {"name":"inst_27D36A3C","path":"rooms/room_platformerworld/room_platformerworld.yy",},
+    {"name":"inst_28540625","path":"rooms/room_platformerworld/room_platformerworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -253,7 +253,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_world2","path":"tilesets/ts_world2/ts_world2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"room_world2",
+  "name":"room_platformerworld",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
