@@ -58,6 +58,7 @@
     {"$GMIncludedFile":"","%Name":"ad.mp4","CopyToMask":-1,"filePath":"datafiles","name":"ad.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllerblacklist.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllertypes.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllertypes.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"credit.mp4","CopyToMask":-1,"filePath":"datafiles","name":"credit.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"credits.mp4","CopyToMask":-1,"filePath":"datafiles","name":"credits.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"input_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"input_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"My Movie 1.mp4","CopyToMask":-1,"filePath":"datafiles","name":"My Movie 1.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
