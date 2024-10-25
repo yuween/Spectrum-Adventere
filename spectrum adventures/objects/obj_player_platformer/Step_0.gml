@@ -84,21 +84,30 @@ if (place_meeting(x, y + 1, obj_box) && y_speed >= 0) {
 }
 
 // Wrap around the room in case the player falls off of the level
-if y > room_height{
-	if global.checkpoint = 0{
-		x = obj_checkpoint0.x
-		y = obj_checkpoint0.y
-	}
-	else 	if global.checkpoint = 1{
-		x = obj_checkpoint1.x
-		y = obj_checkpoint1.y
-	}
-	else	if global.checkpoint = 2{
-		x = obj_checkpoint2.x
-		y = obj_checkpoint2.y
-	}
-	else	if global.checkpoint = 3{
-		x = obj_checkpoint3.x
-		y = obj_checkpoint3.y
-	}
+if global.checkpoint = 0
+
+switch global.checkpoint
+{ 
+	case 0:
+		cp = obj_checkpoint0;
+	break;
+	
+	case 1:
+		cp = obj_checkpoint1;
+	break;
+	
+	case 2:
+		cp = obj_checkpoint2;
+	break;
+	
+	case 3:
+		cp = obj_checkpoint3;
+	break;
+}
+
+var _x = cp.x 
+var _y = cp.y
+if (y < 0){
+	x = _x
+	y = _y
 }
