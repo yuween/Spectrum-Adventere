@@ -6,7 +6,7 @@ if (place_meeting(x, y, obj_box)) {
         image_index = 1; // Change the image index to indicate pressure
         
         // Create the instance of obj_solid_platformer_appear
-        platform_instance = instance_create_layer(600, 400, "Instances", obj_solid_platformer_appear);
+        platform_instance = instance_create_layer(3400, 200, "Instances", obj_solid_platformer_appear);
         platform_instance.image_xscale = 5; // 96 / 32 = 3
         platform_instance.image_yscale = 1; // No change in height
 	}
