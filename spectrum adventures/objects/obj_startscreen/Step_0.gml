@@ -31,6 +31,7 @@ if (!option_selected) {
                 break;
             case 2: // Open Credits
                 room_goto(room_credits);
+				audio_play_sound(credit,1,true);
         }
     }
 }
