@@ -1,0 +1,1 @@
+TransitionStart(room_plane_airport, sqFadeOut, sqFadeIn);

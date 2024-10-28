@@ -1,0 +1,1 @@
+TransitionStart(room_plane_crash_world2, sqFadeOut, sqFadeIn);
