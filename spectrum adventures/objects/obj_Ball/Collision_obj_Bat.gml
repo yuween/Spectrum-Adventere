@@ -8,5 +8,4 @@
 		// Maintain the speed
 		speed = _s;
 		if go { 
-			audio_play_sound(snd_Bounce, 0, false);
 		}

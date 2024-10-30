@@ -9,10 +9,9 @@
 		        {
 		        if keyboard_check(vk_anykey)
 		            {
-		            audio_play_sound(snd_Click, 0, false);
 		            global.player_score = 0;
 		            global.player_lives = 10;
-		            room_goto(room_plane_airport);
+		            room_goto(room_breakthroughlose);
 		            }
 		        }
 		    }

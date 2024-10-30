@@ -243,6 +243,7 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"room_ad","path":"rooms/room_ad/room_ad.yy",},},
     {"id":{"name":"room_breakthrough","path":"rooms/room_breakthrough/room_breakthrough.yy",},},
+    {"id":{"name":"room_breakthroughlose","path":"rooms/room_breakthroughlose/room_breakthroughlose.yy",},},
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"id":{"name":"room_map","path":"rooms/room_map/room_map.yy",},},
@@ -302,6 +303,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"spr_banana","path":"sprites/spr_banana/spr_banana.yy",},},
+    {"id":{"name":"spr_bat_fake","path":"sprites/spr_bat_fake/spr_bat_fake.yy",},},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_blue_1","path":"sprites/spr_blue_1/spr_blue_1.yy",},},
@@ -451,6 +453,7 @@
     {"roomId":{"name":"room_breakthrough","path":"rooms/room_breakthrough/room_breakthrough.yy",},},
     {"roomId":{"name":"room_plane_airport","path":"rooms/room_plane_airport/room_plane_airport.yy",},},
     {"roomId":{"name":"room_plane_crash_world2","path":"rooms/room_plane_crash_world2/room_plane_crash_world2.yy",},},
+    {"roomId":{"name":"room_breakthroughlose","path":"rooms/room_breakthroughlose/room_breakthroughlose.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
