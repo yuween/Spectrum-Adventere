@@ -364,6 +364,7 @@
     {"id":{"name":"spr_slider_bar","path":"sprites/spr_slider_bar/spr_slider_bar.yy",},},
     {"id":{"name":"spr_slider_knob","path":"sprites/spr_slider_knob/spr_slider_knob.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
+    {"id":{"name":"spr_soundtrack_background","path":"sprites/spr_soundtrack_background/spr_soundtrack_background.yy",},},
     {"id":{"name":"spr_soundtrack_button","path":"sprites/spr_soundtrack_button/spr_soundtrack_button.yy",},},
     {"id":{"name":"spr_soundtrack","path":"sprites/spr_soundtrack/spr_soundtrack.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
