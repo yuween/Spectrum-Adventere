@@ -9,6 +9,5 @@
 		        go = true;
 		        speed = spd;
 		        direction = dir;
-		        audio_play_sound(snd_Click, 0, false);
 		        }
 		    }

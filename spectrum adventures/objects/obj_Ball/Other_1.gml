@@ -40,5 +40,4 @@ else {
 }
 // With each bounce, increase the ball speed up to a maximum of 12px per step
 if speed < 100 speed += 0.4;
-audio_play_sound(snd_Bounce, 0, false);
 direction += 2 - random(4);

@@ -2,4 +2,4 @@
 state = "START"
 
 global.player_score = 0;
-global.player_lives = 10;
+global.player_lives = 5;
