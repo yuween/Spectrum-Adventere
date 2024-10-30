@@ -90,6 +90,7 @@
     {"id":{"name":"obj_Bat","path":"objects/obj_Bat/obj_Bat.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
+    {"id":{"name":"obj_breakthrough_portal","path":"objects/obj_breakthrough_portal/obj_breakthrough_portal.yy",},},
     {"id":{"name":"obj_Brick","path":"objects/obj_Brick/obj_Brick.yy",},},
     {"id":{"name":"obj_button_airport","path":"objects/obj_button_airport/obj_button_airport.yy",},},
     {"id":{"name":"obj_button_backworld2","path":"objects/obj_button_backworld2/obj_button_backworld2.yy",},},
