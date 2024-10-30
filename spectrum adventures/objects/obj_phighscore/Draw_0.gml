@@ -29,4 +29,4 @@ draw_text(_x - 160/ _z, _y + 90/ _z, "- Dash: Press [Space] or Action button");
 
 // Footer centered
 draw_set_halign(fa_center);
-draw_text(_x, _y + 160/ _z, "Press [Enter] to Start or [Escape] to Exit");
+draw_text(_x, _y + 160/ _z, "Press [Enter] to Start or [Backspace] to Exit");

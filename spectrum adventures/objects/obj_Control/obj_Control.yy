@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_phighscore",
+  "%Name":"obj_Control",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":8,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_phighscore",
+  "name":"obj_Control",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platformer",
-    "path":"folders/Objects/Platformer.yy",
+    "name":"Breakthrough",
+    "path":"folders/Objects/Breakthrough.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_phighscore",
-    "path":"sprites/spr_phighscore/spr_phighscore.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

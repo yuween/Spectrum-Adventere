@@ -13,6 +13,10 @@ global.down_key = vk_down
 global.interact_key = vk_space
 global.action_key = ord("E")
 
+//breakthrough
+global.high_score = 0;
+
+
 global.fullscreen = false;
 global.volume = 0.5
 
