@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_rectangle",
+  "eventList":[],
   "managed":true,
-  "name":"obj_quit",
+  "name":"obj_rectangle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Features",
-    "path":"folders/Objects/Start Screen/Features.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_quit",
-    "path":"sprites/spr_quit/spr_quit.yy",
+    "name":"spr_rectangle",
+    "path":"sprites/spr_rectangle/spr_rectangle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
