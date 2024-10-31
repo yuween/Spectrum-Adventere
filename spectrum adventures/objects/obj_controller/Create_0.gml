@@ -29,6 +29,10 @@ global.best_time = ini_read_real("highscore", "best", 0);
 ini_close();
 
 
+ini_open("pphighscore.ini");
+global.best_score = ini_read_real("highscore", "best", 0);
+ini_close();
+
 
 image_alpha = 0;
 

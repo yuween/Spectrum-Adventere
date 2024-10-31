@@ -1,3 +1,3 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-room_goto(room_plane_airport);
+room_goto(room_game);
