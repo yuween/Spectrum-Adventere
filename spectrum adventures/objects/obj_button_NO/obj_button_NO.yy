@@ -11,8 +11,8 @@
   "name":"obj_button_NO",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Features",
+    "path":"folders/Objects/Start Screen/Features.yy",
   },
   "parentObjectId":null,
   "persistent":false,

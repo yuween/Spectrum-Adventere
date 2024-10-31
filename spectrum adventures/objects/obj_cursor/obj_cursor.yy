@@ -8,11 +8,11 @@
   "name":"obj_cursor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Snake",
+    "path":"folders/Objects/Snake.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cursor",
+    "path":"sprites/spr_cursor/spr_cursor.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
