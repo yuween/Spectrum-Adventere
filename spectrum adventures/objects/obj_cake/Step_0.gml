@@ -1,0 +1,1 @@
+if (global.bday) instance_destroy();
