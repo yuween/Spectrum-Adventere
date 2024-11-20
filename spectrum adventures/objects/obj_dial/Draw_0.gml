@@ -51,6 +51,12 @@ for (var i = 0; i < 3; i++)
 
 if (unlocked)
 {
+	if global.ltime_taken < global.lhighscore {
+		global.lhighscore = global.ltime_taken
+		ini_open("Lock.ini");
+		ini_write_real("Lock", "Highscore", global.lhighscore);
+		ini_close();
+	}
 	draw_set_halign(fa_center);
 	draw_text(room_width/2, room_height - 50, "SUCCESS! VAULT DOOR OPENED!");
 }

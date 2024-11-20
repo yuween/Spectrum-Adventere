@@ -32,6 +32,10 @@ ini_open("pachighscore.ini")
 global.pachighscore = ini_read_real("highscore", "pacman", 0);
 ini_close();
 
+ini_open("Lock.ini");
+global.lhighscore = ini_read_real("Lock", "Highscore", 0);
+ini_close();
+
 
 image_alpha = 0;
 
