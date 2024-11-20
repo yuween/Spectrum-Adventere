@@ -8,6 +8,13 @@ if !(audio_is_playing(Snd_beginning)){
 }
 
 if (global.vidas == 0){
+	if global.puntos >= global.pachighscore{
+		global.pachighscore = global.puntos
+		ini_open("pachighscore.ini");
+		ini_write_real("highscore", "pacman", global.pachighscore);
+		ini_close();
+	}
+		
 	with(Obj_enemy_redghost){instance_destroy();}
 	with(Obj_enemy_blueghost){instance_destroy();}
 	with(Obj_enemy_orangeghost){instance_destroy();}
@@ -17,6 +24,7 @@ if (global.vidas == 0){
 	with(Obj_point){instance_destroy();}
 	with(Obj_fruit){instance_destroy();}
 	room_goto(room_game);
+	
 }
 
 if(instance_number(Obj_point) == 0 && instance_number(Obj_powerpoint) == 0 && global.vidas != 0){

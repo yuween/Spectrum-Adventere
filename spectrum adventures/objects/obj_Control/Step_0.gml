@@ -9,10 +9,12 @@
 		        {
 		        if keyboard_check(vk_anykey)
 		            {
-					ini_open("breakthroughhighscore.ini");
-					global.player_score=ini_read_real("break","through",0)
-					ini_close();
-		            global.player_lives = 10;
+					if global.player_score >= global.bhighscore{
+						global.bhighscore = global.player_score
+						ini_open("breakthroughhighscore.ini");
+						ini_write_real("break","through",global.bhighscore)
+						ini_close();
+					}
 		            room_goto(room_breakthroughlose);
 		            }
 		        }
