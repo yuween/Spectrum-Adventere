@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cake",
+  "%Name":"obj_inverse",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cake",
+  "name":"obj_inverse",
   "overriddenProperties":[],
   "parent":{
     "name":"Dino-Run",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cake",
-    "path":"sprites/spr_cake/spr_cake.yy",
+    "name":"spr_inverse",
+    "path":"sprites/spr_inverse/spr_inverse.yy",
   },
   "spriteMaskId":null,
   "visible":true,
