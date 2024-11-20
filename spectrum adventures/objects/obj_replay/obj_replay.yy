@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cake",
+  "%Name":"obj_replay",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cake",
+  "name":"obj_replay",
   "overriddenProperties":[],
   "parent":{
     "name":"Dino-Run",
     "path":"folders/Objects/Dino-Run.yy",
   },
-  "parentObjectId":{
-    "name":"obj_obstacle",
-    "path":"objects/obj_obstacle/obj_obstacle.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cake",
-    "path":"sprites/spr_cake/spr_cake.yy",
+    "name":"spr_replay",
+    "path":"sprites/spr_replay/spr_replay.yy",
   },
   "spriteMaskId":null,
   "visible":true,

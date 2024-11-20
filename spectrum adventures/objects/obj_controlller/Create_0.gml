@@ -11,3 +11,5 @@ alarm[2] = room_speed * 20;
 
 // start creating inverse obstacles
 alarm[3] = room_speed * 7;
+
+global.inverse=0;
