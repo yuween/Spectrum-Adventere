@@ -8,7 +8,7 @@ duckKeyAlt = !global.inverse ? keyboard_check(vk_alt) : keyboard_check(vk_up);
 ducking = duckKey || duckKeyAlt;
 jumping = !(duckKey && duckKeyAlt);
 
-if (place_meeting(x, y, obj_block))
+if (place_meeting(x, y, obj_bblock))
 {
 	// we're touching the ground
 	vspd = 0;
@@ -43,9 +43,9 @@ else
 falling = jumping && vspd > 0;
 jumping = jumping && vspd < 0
 	
-if (place_meeting(x, y + vspd, obj_block))
+if (place_meeting(x, y + vspd, obj_bblock))
 {
-	while (!place_meeting(x, y+sign(vspd), obj_block))
+	while (!place_meeting(x, y+sign(vspd), obj_bblock))
 	{
 		y += sign(vspd);	
 	}
@@ -71,10 +71,3 @@ if (!jumping && !falling && !ducking)
 }
 
 
-// Vertical Collision Handling
-if (place_meeting(x, y + vspd, obj_collision)) {
-    while (!place_meeting(x, y + sign(vspd), obj_collision)) {
-        y += sign(vspd);
-    }
-    vspd = 0;
-}

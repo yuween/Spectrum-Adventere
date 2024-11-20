@@ -24,7 +24,7 @@ draw_text(_x - 160/ _z, _y + 10/ _z, "- Spin the dial and ENTER your code!");
 
 // Controls
 draw_text(_x - 180/ _z, _y + 50/ _z, "Controls:");
-draw_text(_x - 160/ _z, _y + 70/ _z, "- Turn: Arrow Keys);
+draw_text(_x - 160/ _z, _y + 70/ _z, "- Turn: Arrow Keys");
 draw_text(_x - 160/ _z, _y + 90/ _z, "- Confirm: Press [ENTER]");
 
 // Footer centered
