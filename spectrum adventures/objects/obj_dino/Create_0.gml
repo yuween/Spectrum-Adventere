@@ -7,3 +7,4 @@ ducking = false;
 termVelocity = 50;
 global.gameOver=false;
 global.bday=0;
+global.inverse=false;

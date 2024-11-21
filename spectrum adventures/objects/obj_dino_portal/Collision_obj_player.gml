@@ -1,0 +1,1 @@
+TransitionStart(rm_game, sqFadeOut, sqFadeIn);
