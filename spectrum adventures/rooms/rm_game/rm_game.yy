@@ -14,8 +14,6 @@
     {"name":"inst_69B83673","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1805BF13","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_25D6C3A0","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_7B1CCCFD","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_E9B3825","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_55B56887","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_2D5A2E62","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_48AB68FF","path":"rooms/rm_game/rm_game.yy",},
@@ -40,6 +38,8 @@
     {"name":"inst_5016FAC4","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_471DF64C","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1D6C5FB9","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_E9B3825","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_7B1CCCFD","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[

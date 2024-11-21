@@ -39,7 +39,7 @@ else
 if (!instance_exists(obj_replay))
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_replay);
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_dinohighscore);
-	instance_create_layer(room_width/2, room_height/2 - 50, "Instances", obj_button_airport);
+	instance_create_layer(room_width/2, room_height/2 + 150, "Instances", obj_button_airport);
 		
 with (obj_obstacle)
 {
