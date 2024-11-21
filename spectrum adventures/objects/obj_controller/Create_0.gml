@@ -6,6 +6,10 @@
 //global.interact_key = ini_read_real("save", "interact", vk_space);
 //ini_close();
 
+ini_open("dino.ini");
+global.dinohighscore = ini_read_real("dino", "ini", 0);
+ini_close();
+
 global.right_key = vk_right
 global.left_key = vk_left
 global.up_key = vk_up

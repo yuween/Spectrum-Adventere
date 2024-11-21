@@ -5,7 +5,6 @@ if (other.object_index == obj_cake)
 	{
 		instance_destroy();
 	}
-	audio_play_sound(snd_cake, 100, false);
 	
 	return;
 }
@@ -22,8 +21,6 @@ if (other.object_index == obj_inverse)
 }
 
 // otherwise a death object
-if (!audio_is_playing(snd_game_over) && !global.gameOver)
-	audio_play_sound(snd_game_over, 100, false);
 	
 global.gameOver = true;
 global.speedModifier = 0;
@@ -41,7 +38,9 @@ else
 
 if (!instance_exists(obj_replay))
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_replay);
-	
+	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_dinohighscore);
+	instance_create_layer(room_width/2, room_height/2 - 50, "Instances", obj_button_airport);
+		
 with (obj_obstacle)
 {
 	speed = 0;

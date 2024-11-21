@@ -8,7 +8,7 @@ duckKeyAlt = !global.inverse ? keyboard_check(vk_alt) : keyboard_check(vk_up);
 ducking = duckKey || duckKeyAlt;
 jumping = !(duckKey && duckKeyAlt);
 
-if (place_meeting(x, y, obj_bblock))
+if (place_meeting(x, y + 1, obj_bblock))
 {
 	// we're touching the ground
 	vspd = 0;
@@ -19,7 +19,6 @@ if (place_meeting(x, y, obj_bblock))
 	// if the player wants to jump
 	if (jumpKey || jumpKeyAlt && !duckKey && !duckKeyAlt)
 	{
-		audio_play_sound(snd_jump, 100, false);
 		jumping = true;
 		vspd = -jspd;
 	}
@@ -69,5 +68,3 @@ if (!jumping && !falling && !ducking)
 	sprite_index = global.bday ? spr_dino_run_bday : spr_dino_run;
 	image_speed = 2;
 }
-
-
