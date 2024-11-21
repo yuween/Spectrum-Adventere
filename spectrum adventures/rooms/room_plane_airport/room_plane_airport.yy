@@ -59,8 +59,8 @@
   ],
   "name":"room_plane_airport",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Back",
+    "path":"folders/Rooms/Planes/Back.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

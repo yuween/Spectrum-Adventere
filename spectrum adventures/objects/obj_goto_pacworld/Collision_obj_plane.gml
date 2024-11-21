@@ -1,0 +1,1 @@
+TransitionStart(room_world2, sqFadeOut, sqFadeIn);

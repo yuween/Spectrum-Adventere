@@ -59,8 +59,8 @@
   ],
   "name":"room_plane_map_snake",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"To",
+    "path":"folders/Rooms/Planes/To.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
