@@ -1,1 +1,0 @@
-TransitionStart(room_snakeworld, sqFadeOut, sqFadeIn);

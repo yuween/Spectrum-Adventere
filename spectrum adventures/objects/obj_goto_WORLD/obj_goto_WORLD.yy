@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_goto_platformercrash",
+  "%Name":"obj_goto_WORLD",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_plane","path":"objects/obj_plane/obj_plane.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_goto_platformercrash",
+  "name":"obj_goto_WORLD",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

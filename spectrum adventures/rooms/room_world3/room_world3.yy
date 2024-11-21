@@ -22,8 +22,8 @@
   ],
   "name":"room_world3",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Main Rooms",
+    "path":"folders/Rooms/Main Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

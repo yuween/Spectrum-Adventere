@@ -1,1 +1,1 @@
-TransitionStart(room_plane_map_snake, sqFadeOut, sqFadeIn);
+TransitionStart(room_plane_map_dino, sqFadeOut, sqFadeIn);
