@@ -6,6 +6,33 @@ global.topics[$ "Example"] = [
 	TEXT("We should test having a page with lots of words in it, to make sure that the line break feature is working properly.")
 ];
 
+global.topics[$ "Dino"] = [
+	TEXT("Hello there!"),
+	TEXT("Walking through this passage will take you upon an airplane leading to the DINO world!"),
+	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+];
+
+global.topics[$ "Pac"] = [
+	TEXT("Hello there!"),
+	TEXT("Walking through this passage will take you upon an airplane leading to the LOCK and PACMAN world!"),
+	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+];
+
+global.topics[$ "Platformer"] = [
+	TEXT("Hello there!"),
+	TEXT("Walking through this passage will take you upon an airplane leading to the PLATFORMER world!"),
+	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+];
+
+global.topics[$ "Snake"] = [
+	TEXT("Hello there!"),
+	TEXT("Walking through this passage will take you upon an airplane leading to the BREAKTHROUGH and SNAKE world!"),
+	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+];
+
+
+
+
 global.topics[$ "Good Morning"] = [
 	SPEAKER("Sam", spr_portrait_sam, PORTRAIT_SIDE.LEFT),
 	TEXT("Good morning! How are you today!"),

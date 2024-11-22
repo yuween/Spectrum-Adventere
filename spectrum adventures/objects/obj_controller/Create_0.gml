@@ -17,6 +17,7 @@ global.down_key = vk_down
 global.interact_key = vk_space
 global.action_key = ord("E")
 
+global.room = 0;
 //breakthrough
 global.high_score = 0;
 

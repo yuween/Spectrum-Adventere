@@ -1,6 +1,6 @@
 if (distance_to_object(obj_player) < 10 && keyboard_check_pressed(global.interact_key)) {
     if (!instance_exists(obj_textbox)) {
-        startDialogue("Destination")
+        startDialogue("Pac")
     }
 }
 
