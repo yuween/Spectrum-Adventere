@@ -13,6 +13,7 @@
     {"name":"inst_6EAB12BE","path":"rooms/room_world2/room_world2.yy",},
     {"name":"inst_301161CA","path":"rooms/room_world2/room_world2.yy",},
     {"name":"inst_3EA93835","path":"rooms/room_world2/room_world2.yy",},
+    {"name":"inst_1BBB3FB0","path":"rooms/room_world2/room_world2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6EAB12BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EAB12BE","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":47.125,"scaleY":1.0,"x":52.0,"y":178.0,},
         {"$GMRInstance":"v1","%Name":"inst_301161CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_301161CA","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":13.125,"scaleY":2.75,"x":434.0,"y":100.0,},
         {"$GMRInstance":"v1","%Name":"inst_3EA93835","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EA93835","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.125,"x":421.0,"y":169.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1BBB3FB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BBB3FB0","objectId":{"name":"obj_dino_portal","path":"objects/obj_dino_portal/obj_dino_portal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":148.0,"y":461.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6302B4B4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6302B4B4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2,"scaleY":1.2133334,"spriteId":{"name":"spr_worId2","path":"sprites/spr_worId2/spr_worId2.yy",},"x":0.0,"y":-64.0,},

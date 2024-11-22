@@ -11,8 +11,8 @@ draw_set_color(c_white); // Set text color
 draw_text(_x, _y - 110/ _z, "Welcome to Lock!");
 
 draw_set_halign(fa_left);
-if (global.lbest_time != -1) {
-    draw_text(_x - 180/ _z, _y - 70/ _z, "Best Time: " + string(global.lbest_time) + " seconds");
+if (global.lhighscore != 9999) {
+    draw_text(_x - 180/ _z, _y - 70/ _z, "Best Time: " + string(global.lhighscore) + " seconds");
 } else {
     draw_text(_x - 180/ _z, _y - 70/ _z, "Best Time: Not Set");
 }

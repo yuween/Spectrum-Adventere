@@ -10,6 +10,8 @@ ini_open("dino.ini");
 global.dinohighscore = ini_read_real("dino", "ini", 0);
 ini_close();
 
+global.out_of_portal = false;
+
 global.right_key = vk_right
 global.left_key = vk_left
 global.up_key = vk_up
@@ -38,9 +40,8 @@ global.pachighscore = ini_read_real("highscore", "pacman", 0);
 ini_close();
 
 ini_open("Lock.ini");
-global.lhighscore = ini_read_real("Lock", "Highscore", 0);
+global.lhighscore = ini_read_real("Lock", "Highscore", 9999);
 ini_close();
-
 
 image_alpha = 0;
 

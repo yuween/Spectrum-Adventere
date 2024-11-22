@@ -8,7 +8,7 @@ var _y = global.camy
 draw_set_halign(fa_center);
 draw_set_font(fnt_platformer);
 draw_set_color(c_white); // Set text color
-draw_text(_x, _y - 110/ _z, "Welcome to Pacman!");
+draw_text(_x, _y - 110/ _z, "Welcome to PACMAN!");
 
 draw_set_halign(fa_left);
 if (global.best_time != -1) {
@@ -19,13 +19,13 @@ if (global.best_time != -1) {
 
 // Objectives
 draw_text(_x - 180/ _z, _y - 30/ _z, "Objectives:");
-draw_text(_x - 160/ _z, _y - 10/ _z, "- Eat all the points to WIN!");
-draw_text(_x - 160/ _z, _y + 10/ _z, "- Avoid the ENEMY GHOSTS!");
-draw_text(_x - 160/ _z, _y + 30/ _z, "- Eat POWERUPS to eat the ENEMIES!");
+draw_text(_x - 160/ _z, _y - 10/ _z, "- Collect all the points!");
+draw_text(_x - 160/ _z, _y + 10/ _z, "- Avoid the ghosts!");
+draw_text(_x - 160/ _z, _y + 30/ _z, "- Eat POWERUPS to eat the ghosts!");
 
 // Controls
 draw_text(_x - 180/ _z, _y + 70/ _z, "Controls:");
-draw_text(_x - 160/ _z, _y + 90/ _z, "- Move: WASD or Arrow Keys");
+draw_text(_x - 160/ _z, _y + 90/ _z, "- Move: WASD Keys");
 
 // Footer centered
 draw_set_halign(fa_center);

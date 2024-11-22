@@ -63,3 +63,9 @@ if global.talking = false {
 		sprite_index = spr_player_down
 	}
 }
+
+if global.out_of_portal = true{
+	global.out_of_portal = false
+	x = obj_platformer_portal.x;
+	y = obj_platformer_portal.y + 30;
+}
