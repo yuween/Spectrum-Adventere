@@ -9,25 +9,25 @@ global.topics[$ "Example"] = [
 global.topics[$ "Dino"] = [
 	TEXT("Hello there!"),
 	TEXT("Walking through this passage will take you upon an airplane leading to the DINO world!"),
-	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+	TEXT("Navigate the plane using Up and Down arrow keys, and make sure to manage the turbulence and don't crash!")
 ];
 
 global.topics[$ "Pac"] = [
 	TEXT("Hello there!"),
 	TEXT("Walking through this passage will take you upon an airplane leading to the LOCK and PACMAN world!"),
-	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+	TEXT("Navigate the plane using Up and Down arrow keys, and make sure to manage the turbulence and don't crash!")
 ];
 
 global.topics[$ "Platformer"] = [
 	TEXT("Hello there!"),
 	TEXT("Walking through this passage will take you upon an airplane leading to the PLATFORMER world!"),
-	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+	TEXT("Navigate the plane using Up and Down arrow keys, and make sure to manage the turbulence and don't crash!")
 ];
 
 global.topics[$ "Snake"] = [
 	TEXT("Hello there!"),
 	TEXT("Walking through this passage will take you upon an airplane leading to the BREAKTHROUGH and SNAKE world!"),
-	TEXT("Navigate the plane using W and A keys, make sure to manage the turbulence and don't crash!")
+	TEXT("Navigate the plane using Up and Down arrow keys, and make sure to manage the turbulence and don't crash!")
 ];
 
 
@@ -44,11 +44,11 @@ global.topics[$ "Good Morning"] = [
 	TEXT("The supermarket was out of carrot juice today!")
 ];
 
-global.topics[$ "Destination"] = [
+global.topics[$ "Centre"] = [
 	SPEAKER("Sam", spr_portrait_sam, PORTRAIT_SIDE.LEFT),
-	CHOICE("Where would you like to fly to?",
-		OPTION("Australia", "Chose Australia"),
-		OPTION("Africa", "Chose Africa"))
+	CHOICE("Need help getting around the game?",
+		OPTION("Yes", "Directions"),
+		OPTION("No", "Goodbye"))
 ];
 
 global.topics[$ "Chose Australia"] = [
@@ -63,13 +63,16 @@ global.topics[$ "Chose Africa"] = [
 		OPTION("Leave", "End of Destination"))
 ];
 
-global.topics[$ "Chose Payment"] = [
-	TEXT("Thank you sir!"),
+global.topics[$ "Goodbye"] = [
+	TEXT("Goodbye then!"),
 	GOTO("End of Destination")
 ];
 
-global.topics[$ "End of Destination"] = [
-	TEXT("Goodbye, now!")
+global.topics[$ "Directions"] = [
+	TEXT("Go UP to enter the DINO world!"),
+	TEXT("Go RIGHT to enter the PLATFORMER world!"),
+	TEXT("Go DOWN to enter the SNAKE world!"),
+	TEXT("Go LEFT to enter the PACMAN world!"),
 ];
 
 global.topics[$ "Platformer"] = [

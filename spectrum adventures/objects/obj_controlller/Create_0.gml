@@ -7,8 +7,8 @@ alarm[0] = room_speed * 3;
 alarm[1] = room_speed * 10;
 
 // start creating cakes
-alarm[2] = room_speed * 5;
+alarm[2] = room_speed * 20;
 
 // start creating inverse obstacles
-alarm[3] = room_speed * 5;
+alarm[3] = room_speed * 7;
 
