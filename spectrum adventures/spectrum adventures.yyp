@@ -374,6 +374,7 @@
     {"id":{"name":"Snd_intermission","path":"sounds/Snd_intermission/Snd_intermission.yy",},},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
     {"id":{"name":"snd_land","path":"sounds/snd_land/snd_land.yy",},},
+    {"id":{"name":"snd_portal","path":"sounds/snd_portal/snd_portal.yy",},},
     {"id":{"name":"snd_unlock","path":"sounds/snd_unlock/snd_unlock.yy",},},
     {"id":{"name":"snd_villager","path":"sounds/snd_villager/snd_villager.yy",},},
     {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
