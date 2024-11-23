@@ -1,6 +1,6 @@
 
 ini_open("phighscore.ini");
-ini_read_real("highscore", "best", global.best_time);
+global.best_time = ini_read_real("highscore", "best", 0);
 ini_close();
 
     if (global.time_taken < global.best_time) {
