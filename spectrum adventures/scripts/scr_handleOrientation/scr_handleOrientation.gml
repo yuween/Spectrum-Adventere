@@ -9,11 +9,9 @@ function scr_handleOrientation() {
 
 	if (ds_list_find_index(matches, round(image_angle/degrees)) == index)
 	{
-		audio_play_sound(snd_match, 100, false);
 	}
 	else
 	{
-		audio_play_sound(snd_normal, 100, false);
 	}
 
 	ds_list_replace(values, index, round(image_angle/degrees));
