@@ -5,6 +5,8 @@ if position_meeting(mouse_x, mouse_y, obj_reset) {
     global.best_time = 9999;
     global.lhighscore = 9999;
     global.bhighscore = 0;
+	global.traditionalhighscore = 0;
+	global.modernhighscore = 0;
 
     // Reset dinohighscore
     ini_open("dino.ini");
@@ -30,6 +32,14 @@ if position_meeting(mouse_x, mouse_y, obj_reset) {
     ini_open("breakthroughhighscore.ini");
     ini_write_real("break", "through", global.bhighscore);
     ini_close();
+	
+	ini_open("highscore.ini");
+    ini_write_real("save", "highscore", global.modernhighscore);
+    ini_close();
+	
+	ini_open("traditionalhighscore.ini");
+	ini_write_real("saves","highscores",global.traditionalhighscore);
+	ini_close()
     
     // Debug message to confirm reset
     show_debug_message("INI files reset successfully.");
