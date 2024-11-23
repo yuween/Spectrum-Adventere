@@ -1,1 +1,1 @@
-TransitionStart(room_traditional, sqFadeOut, sqFadeIn);
+TransitionStart(room_traditional_guide, sqFadeOut, sqFadeIn);

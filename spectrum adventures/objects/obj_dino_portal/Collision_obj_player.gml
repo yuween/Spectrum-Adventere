@@ -1,1 +1,1 @@
-TransitionStart(rm_game, sqFadeOut, sqFadeIn);
+TransitionStart(room_dinorun_guide, sqFadeOut, sqFadeIn);

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ad_timer",
+  "%Name":"obj_playtraditional",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ad_timer",
+  "name":"obj_playtraditional",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Snake",
+    "path":"folders/Objects/Snake.yy",
   },
   "parentObjectId":null,
   "persistent":false,
