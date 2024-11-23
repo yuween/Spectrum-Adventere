@@ -1,3 +1,4 @@
+audio_play_sound(snd_eat,1,false);
 
 global.traditionallength+=1;
 with (other) instance_destroy();

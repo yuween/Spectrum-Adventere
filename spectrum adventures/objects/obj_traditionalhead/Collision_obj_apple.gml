@@ -1,3 +1,5 @@
+audio_play_sound(snd_eat,1,false);
+
 with (other) instance_destroy();
 score -=250;
 with (obj_trail) alarm [0] =1;

@@ -12,3 +12,5 @@ until (place_free(xx,yy))
 
 food=instance_create_layer(xx,yy,"Instances",obj_banana);
 with (food) move_snap(16,16);
+
+audio_play_sound(snd_eat,1,false);

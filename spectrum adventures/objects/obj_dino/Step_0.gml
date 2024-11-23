@@ -20,6 +20,7 @@ if (place_meeting(x, y + 1, obj_bblock))
 	if (jumpKey || jumpKeyAlt && !duckKey && !duckKeyAlt)
 	{
 		jumping = true;
+		audio_play_sound(snd_jump,1,false);
 		vspd = -jspd;
 	}
 }
