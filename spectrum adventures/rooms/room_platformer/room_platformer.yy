@@ -30,7 +30,6 @@
     {"name":"inst_32FA99A","path":"rooms/room_platformer/room_platformer.yy",},
     {"name":"inst_749F57D7","path":"rooms/room_platformer/room_platformer.yy",},
     {"name":"inst_16914AE3","path":"rooms/room_platformer/room_platformer.yy",},
-    {"name":"inst_28A2CA25","path":"rooms/room_platformer/room_platformer.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -110,7 +109,6 @@
         {"$GMRInstance":"v1","%Name":"inst_32FA99A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32FA99A","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3305.0,"y":449.0,},
         {"$GMRInstance":"v1","%Name":"inst_749F57D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_749F57D7","objectId":{"name":"obj_solid_platformer","path":"objects/obj_solid_platformer/obj_solid_platformer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.78125,"scaleY":8.421875,"x":3843.0,"y":304.0,},
         {"$GMRInstance":"v1","%Name":"inst_16914AE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16914AE3","objectId":{"name":"obj_solid_platformer","path":"objects/obj_solid_platformer/obj_solid_platformer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.96875,"scaleY":4.2263546,"x":4576.0,"y":430.75,},
-        {"$GMRInstance":"v1","%Name":"inst_28A2CA25","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28A2CA25","objectId":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3552.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4284350464,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

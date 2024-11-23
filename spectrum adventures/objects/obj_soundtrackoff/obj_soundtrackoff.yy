@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_traditional_snake_camera",
+  "%Name":"obj_soundtrackoff",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_traditional_snake_camera",
+  "name":"obj_soundtrackoff",
   "overriddenProperties":[],
   "parent":{
-    "name":"Snake",
-    "path":"folders/Objects/Snake.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_soundtrackoff",
+    "path":"sprites/spr_soundtrackoff/spr_soundtrackoff.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
