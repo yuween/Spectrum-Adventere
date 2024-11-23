@@ -9,8 +9,8 @@
   "name":"obj_traditional_snake_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Snake",
+    "path":"folders/Objects/Snake.yy",
   },
   "parentObjectId":null,
   "persistent":false,
