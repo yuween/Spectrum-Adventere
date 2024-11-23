@@ -23,6 +23,7 @@ global.room = 0;
 //breakthrough
 global.high_score = 0;
 
+global.wait = 15;
 
 global.fullscreen = false;
 global.volume = 0.5

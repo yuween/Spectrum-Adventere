@@ -79,13 +79,6 @@ global.topics[$ "Directions"] = [
 	TEXT("Go LEFT to enter the PACMAN world!"),
 ];
 
-global.topics[$ "Platformer"] = [
-	SPEAKER("Sam", spr_portrait_sam, PORTRAIT_SIDE.LEFT),
-	CHOICE("I have a challenge for you, complete the minigame and I'll give you a prize. Do you accept?",
-		OPTION("Yes", "Yes_platformer"),
-		OPTION("No", "No_platformer"))
-];
-
 global.topics[$ "Yes_platformer"] = [
 	TEXT("Step into the portal to start the challenge!")
 ];

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.885208,
+  "duration":0.339592,
   "name":"snd_walk",
   "parent":{
     "name":"Sound Effects",

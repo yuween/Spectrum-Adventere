@@ -27,6 +27,17 @@ else
 	image_speed = 0;
 }
 
+if hSpeed != 0 {
+	if !audio_is_playing(snd_walk){	
+		audio_play_sound(snd_walk, 1, false);
+	}	
+}
+if vSpeed != 0 {
+	if !audio_is_playing(snd_walk){	
+		audio_play_sound(snd_walk, 1, false);
+	}	
+}
+
 // Horizontal Collision Handling
 if (place_meeting(x + hSpeed, y, obj_collision)) {
     while (!place_meeting(x + sign(hSpeed), y, obj_collision)) {
