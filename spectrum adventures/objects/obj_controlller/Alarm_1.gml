@@ -1,5 +1,5 @@
 randomize();
-var i = instance_create_layer(room_width + 100, room_height-75 + irandom_range(-200, 100), "Instances", obj_cloud);
+var i = instance_create_layer(room_width + 100, room_height-175 + irandom_range(-200, 100), "Instances", obj_cloud);
 
 if (global.bday)
 {
