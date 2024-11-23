@@ -26,7 +26,9 @@ if (!option_selected) {
 				instance_create_layer(room_width/2, 150, "Instances", obj_slider_bar);
 				instance_create_layer(0, 0, "InstancesAbove", obj_slider_knob);
 				instance_create_layer(room_width/2 + 25, 212, "Instances", obj_fullscreen);
-				instance_create_layer(room_width/2, 300, "Instances", obj_controls);
+				instance_create_layer(room_width/2, 260, "Instances", obj_controls);
+				instance_create_layer(room_width/2, 320, "Instances", obj_reset);
+				
                 instance_deactivate_object(self); // Deactivate main menu while showing options
                 break;
             case 2: // Open Credits
