@@ -365,8 +365,6 @@
     {"id":{"name":"snd_food","path":"sounds/snd_food/snd_food.yy",},},
     {"id":{"name":"Snd_intermission","path":"sounds/Snd_intermission/Snd_intermission.yy",},},
     {"id":{"name":"snd_land","path":"sounds/snd_land/snd_land.yy",},},
-    {"id":{"name":"snd_match","path":"sounds/snd_match/snd_match.yy",},},
-    {"id":{"name":"snd_normal","path":"sounds/snd_normal/snd_normal.yy",},},
     {"id":{"name":"snd_unlock","path":"sounds/snd_unlock/snd_unlock.yy",},},
     {"id":{"name":"snd_villager","path":"sounds/snd_villager/snd_villager.yy",},},
     {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
