@@ -1,5 +1,7 @@
 audio_play_sound(snd_click,1,false);
 
+audio_stop_sound(snd_gameover);
+
 if global.room = 1{
 	TransitionStart(room_world2, sqFadeOut, sqFadeIn);
 }
