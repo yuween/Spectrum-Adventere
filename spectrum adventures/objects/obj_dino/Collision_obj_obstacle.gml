@@ -40,7 +40,7 @@ if (!instance_exists(obj_replay))
 	audio_play_sound(snd_gameover,1,true);
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_replay);
 	instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_dinohighscore);
-	instance_create_layer(room_width/2, room_height/2 + 150, "Instances", obj_button_airport);
+	instance_create_layer(room_width/2, room_height/2 + 150, "Instances", obj_button_backworld2);
 		
 with (obj_obstacle)
 {
