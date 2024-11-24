@@ -13,6 +13,6 @@ if (!unlocked)
 	{
 		unlocked = true;
 		audio_play_sound(snd_unlock, 100, false);
-		TransitionStart(room_game, sqFadeOut, sqFadeIn);
+		TransitionStart(room_world3, sqFadeOut, sqFadeIn);
 	}
 }
