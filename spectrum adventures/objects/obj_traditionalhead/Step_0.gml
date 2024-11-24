@@ -1,7 +1,7 @@
-if keyboard_check_pressed(vk_left) dir=state.left;
-if keyboard_check_pressed(vk_right) dir=state.right;
-if keyboard_check_pressed(vk_up) dir=state.up;
-if keyboard_check_pressed(vk_down) dir=state.down;
+if keyboard_check_pressed(ord("A")) dir=state.left;
+if keyboard_check_pressed(ord("D")) dir=state.right;
+if keyboard_check_pressed(ord("W")) dir=state.up;
+if keyboard_check_pressed(ord("S")) dir=state.down;
 
 if dir==state.left
 {
