@@ -10,8 +10,12 @@ draw_set_font(fnt_platformer);
 draw_set_color(c_white); // Set text color
 draw_text(_x, _y - 110/ _z, "Welcome to Breakthrough!");
 
+
 draw_set_halign(fa_left);
-if (global.best_time != -1) {
+ini_open("breakthroughhighscore.ini");
+global.bhighscore = ini_read_real("break","through",0)
+ini_close();
+if (global.bhighscore != -1) {
     draw_text(_x - 180/ _z, _y - 70/ _z, "Best Score: " + string(global.bhighscore) + " Points");
 } else {
     draw_text(_x - 180/ _z, _y - 70/ _z, "Best Score: Not Set");

@@ -17,12 +17,12 @@ if (!changing_key) {
 // Press ESC to return to the previous menu
 if (keyboard_check_pressed(vk_escape)) {
     instance_destroy();
-	instance_create_layer(0, 0, "Instances", obj_options);
-	instance_create_layer(room_width/2, 150, "Instances", obj_slider_bar);
-	instance_create_layer(0, 0, "InstancesAbove", obj_slider_knob);
-	instance_create_layer(room_width/2 + 25, 212, "Instances", obj_fullscreen);
-	instance_create_layer(room_width/2, 300, "Instances", obj_controls);
-	// Close the keybind GUI
+  instance_create_layer(0, 0, "Instances", obj_options);
+				instance_create_layer(room_width/2, 150, "Instances", obj_slider_bar);
+				instance_create_layer(0, 0, "InstancesAbove", obj_slider_knob);
+				instance_create_layer(room_width/2 + 25, 212, "Instances", obj_fullscreen);
+				instance_create_layer(room_width/2, 260, "Instances", obj_controls);
+				instance_create_layer(room_width/2, 320, "Instances", obj_reset);
 	
 
 }
