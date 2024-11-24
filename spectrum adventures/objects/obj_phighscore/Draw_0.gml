@@ -11,7 +11,7 @@ draw_set_color(c_white); // Set text color
 draw_text(_x, _y - 110/ _z, "Welcome to Platformer Game!");
 
 draw_set_halign(fa_left);
-if (global.best_time != -1) {
+if (global.best_time != 9999) {
     draw_text(_x - 180/ _z, _y - 70/ _z, "Best Time: " + string(global.best_time) + " seconds");
 } else {
     draw_text(_x - 180/ _z, _y - 70/ _z, "Best Time: Not Set");
