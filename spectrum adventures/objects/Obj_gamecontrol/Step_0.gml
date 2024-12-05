@@ -23,12 +23,12 @@ if (global.vidas == 0){
 	with(Obj_powerpoint){instance_destroy();}
 	with(Obj_point){instance_destroy();}
 	with(Obj_fruit){instance_destroy();}
-	room_goto(room_game);
+	room_goto(room_world3);
 	
 }
 
 if(instance_number(Obj_point) == 0 && instance_number(Obj_powerpoint) == 0 && global.vidas != 0){
 		audio_stop_all();
-		room_goto(room_game);
+		room_goto(room_world3);
 		instance_destroy();
 }
