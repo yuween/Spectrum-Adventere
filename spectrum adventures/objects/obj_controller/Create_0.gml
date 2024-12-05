@@ -10,6 +10,7 @@ ini_open("dino.ini");
 global.dinohighscore = ini_read_real("dino", "ini", 0);
 ini_close();
 
+global.backbreak = false;
 global.out_of_portal = false;
 
 global.right_key = vk_right

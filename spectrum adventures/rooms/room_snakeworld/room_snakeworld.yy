@@ -29,6 +29,7 @@
     {"name":"inst_2929A03D","path":"rooms/room_snakeworld/room_snakeworld.yy",},
     {"name":"inst_3598D137","path":"rooms/room_snakeworld/room_snakeworld.yy",},
     {"name":"inst_2D5A7BE1","path":"rooms/room_snakeworld/room_snakeworld.yy",},
+    {"name":"inst_21028EC0","path":"rooms/room_snakeworld/room_snakeworld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -57,6 +58,7 @@
         {"$GMRInstance":"v1","%Name":"inst_8A9080","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8A9080","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":22.9375,"scaleY":20.25,"x":560.5,"y":254.0,},
         {"$GMRInstance":"v1","%Name":"inst_3598D137","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3598D137","objectId":{"name":"obj_breakthrough_portal","path":"objects/obj_breakthrough_portal/obj_breakthrough_portal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":811.0,"y":357.0,},
         {"$GMRInstance":"v1","%Name":"inst_2D5A7BE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D5A7BE1","objectId":{"name":"obj_goto_ROOMBACK","path":"objects/obj_goto_ROOMBACK/obj_goto_ROOMBACK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.1875,"scaleY":1.5,"x":187.0,"y":-19.5,},
+        {"$GMRInstance":"v1","%Name":"inst_21028EC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21028EC0","objectId":{"name":"obj_backbreak","path":"objects/obj_backbreak/obj_backbreak.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":236.0,"y":-36.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_E254D85","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_E254D85","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0344827,"scaleY":1.05,"spriteId":{"name":"spr_world1","path":"sprites/spr_world1/spr_world1.yy",},"x":0.0,"y":-128.0,},
