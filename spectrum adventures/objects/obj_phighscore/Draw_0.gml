@@ -25,7 +25,7 @@ draw_text(_x - 160/ _z, _y + 10/ _z, "- Avoid obstacles and enemies.");
 // Controls
 draw_text(_x - 180/ _z, _y + 50/ _z, "Controls:");
 draw_text(_x - 160/ _z, _y + 70/ _z, "- Move: Arrow keys or WASD");
-draw_text(_x - 160/ _z, _y + 90/ _z, "- Dash: Press [Space] or Action button");
+draw_text(_x - 160/ _z, _y + 90/ _z, "- Dash: Press [E] or Action button");
 
 // Footer centered
 draw_set_halign(fa_center);
